@@ -18,8 +18,8 @@ header {
     text-align: center;
 }
 
-#foto {
-    right: 80%;
+h1 img {
+   float: left;
     margin: 10px;
 }
 
