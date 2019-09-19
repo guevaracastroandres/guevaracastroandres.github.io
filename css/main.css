@@ -11,7 +11,7 @@ footer {
     max-width: 760px;
 }
 
-header, {
+header{
     background-color: rgb(25, 61, 95);
     color: #fff;
     text-align: center;
@@ -23,7 +23,7 @@ p image {
     margin: 10px;
 }
 
-footer{ 
+footer {
     background-color: rgb(25, 61, 95);
     color: #fff;
     text-align: center;
