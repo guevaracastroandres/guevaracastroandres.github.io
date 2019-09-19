@@ -21,6 +21,7 @@ header{
 p image {
     float: right;
     margin: 10px;
+    width: 200px;
 }
 
 footer {
