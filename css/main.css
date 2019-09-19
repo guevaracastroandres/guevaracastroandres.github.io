@@ -11,10 +11,16 @@ footer {
     max-width: 760px;
 }
 
-header{
+header footer {
     background-color: rgb(25, 61, 95);
-    color:#fff;
-    text-align:center;
+    color: #fff;
+    text-align: center;
     padding: 1.5rem;
-    
 }
+
+p image {
+    float: right;
+    margin;
+    : 10px;
+}
+
