@@ -35,10 +35,11 @@
 
         &copy; 2019│ Andres F. Castro │ Colombia │ <a href="https://www.byui.edu/online">BYU Online Learning</a>
         <span id="currentdate"></span>
-        <script src="js/currentdate.js"></script>
-
     </footer>
-
+    <script>
+    const options = {weeklday: 'long', day:'numeric', month: 'long', year: 'numeric'};   
+    document.getElementById('currentdate').textContent = new Date().toLocaleDateString('en-US',options)
+    </script>
 </body>
 
 </html>
