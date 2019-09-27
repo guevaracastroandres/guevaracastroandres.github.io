@@ -1,0 +1,35 @@
+body {
+    font-size: 12px;
+    line-height: 1.;
+}
+
+header,
+nav,
+main,
+footer {
+    margin: 1rem auto;
+    max-width: 760px;
+}
+
+header {
+    background-color: rgb(25, 61, 95);
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+}
+
+#foto img {
+   float: right;
+    margin: 10px;
+}
+
+footer {
+    background-color: rgb(25, 61, 95);
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+}
+
+footer a {
+    color: #fff;
+}
