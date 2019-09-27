@@ -12,4 +12,13 @@
     #foto img {
         float: right;
          margin: 10px;
+    }
+   
+    header, footer {
+        background-color: rgb(25, 61, 95);
+        color: #fff;
+        padding: 1rem;
+        text-align: center;
+    }
+         
 }
