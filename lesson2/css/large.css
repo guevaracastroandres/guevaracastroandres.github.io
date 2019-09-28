@@ -1,8 +1,16 @@
 body {
-	font-size: 16px;
+    font-size: 16px;
+    background-color: #d6d6d6;
     font-family: 'Barlow Semi Condensed', sans-serif; 
 }
  main{
     display: grid;
 	grid-template-columns: 1fr;
  }
+
+ main section {
+	margin: 0.5rem;
+	border: 1px solid #bbb;
+	padding: 0 1rem;
+    background-color: #fff;
+}
