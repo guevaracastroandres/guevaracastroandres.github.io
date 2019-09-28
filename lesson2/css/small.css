@@ -27,7 +27,6 @@ header, footer {
     background-color: rgb(25, 61, 95);
     color: #fff;
     padding: 1rem;
-    max-block-size: 100%;
 }
 
 header {
@@ -46,6 +45,10 @@ h4{
     margin-top:0%;
     margin-bottom:15px;
     padding: 10px;
+}
+
+picture {
+    width:fit-content ;
 }
 
 a {
