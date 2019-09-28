@@ -42,12 +42,16 @@ h4{
     background-color: rgba(238, 235, 235, 0.863);
     text-align:left;
     margin-top:0%;
-    margin-bottom:5px;
+    margin-bottom:15px;
     padding: 10px;
 }
 
 a {
     color: black;
+}
+
+hr{
+    color: blanchedalmond;
 }
 
 #footerlink {
