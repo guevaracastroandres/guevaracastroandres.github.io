@@ -27,6 +27,7 @@ header, footer {
     background-color: rgb(25, 61, 95);
     color: #fff;
     padding: 1rem;
+    max-block-size: 100%;
 }
 
 header {
