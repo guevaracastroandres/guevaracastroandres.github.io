@@ -35,8 +35,8 @@ header {
 h3{ 
     background-color: rgb(25, 61, 95);
     color: #fff ;
-    margin:0%;
-    padding: 8px;
+    margin-bottom:0%;
+    padding:8px;
 }
 h4{
     background-color: rgba(238, 235, 235, 0.863);
