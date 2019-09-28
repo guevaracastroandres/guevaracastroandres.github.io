@@ -14,3 +14,7 @@ body {
 	padding: 0 1rem;
     background-color: #fff;
 }
+section:nth-child(2) {
+	display: none;
+	margin: 0.5rem;
+}
