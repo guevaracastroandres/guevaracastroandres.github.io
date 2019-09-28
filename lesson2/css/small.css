@@ -5,13 +5,14 @@ body {
 }
 
 main {
-	max-width: 758px;
-    margin: 0 auto;
+	max-width: 767px;
+	margin: 0 auto;
 }
 
- main{
-    display: grid;
+main {
+	display: grid;
 	grid-template-columns: 1fr;
+	font-size: 0.8rem;
  }
 
  main section {
