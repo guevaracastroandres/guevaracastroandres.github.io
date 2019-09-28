@@ -24,7 +24,6 @@ main {
 }
 
 header, footer {
-    max-width: 640px;
     background-color: rgb(25, 61, 95);
     color: #fff;
     padding: 1rem;
