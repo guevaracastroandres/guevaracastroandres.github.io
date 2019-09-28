@@ -26,6 +26,7 @@ header, footer {
     background-color: rgb(25, 61, 95);
     color: #fff;
     text-align: center;
+    padding: 1rem;
 }
 
 h3{ 
