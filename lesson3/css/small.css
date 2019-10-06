@@ -4,6 +4,10 @@ body {
     font-family: 'Questrial', sans-serif;
 }
 
+#logo img {
+    float: left;
+}
+
 header,
 footer {
 	background-color: #2059AD;
