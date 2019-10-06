@@ -13,6 +13,10 @@ footer {
 	justify-content: center;
     padding: 10px;
     color: blanchedalmond;
+}    
+
+footer a {
+color: blanchedalmond;
 }
 
 header,
@@ -30,10 +34,11 @@ header h2 {
     color: blanchedalmond;
 }
 
-h1, h2{
+h1{
     font-family: 'Palanquin Dark', sans-serif;
     color: #ED701B;
 }
+
 
 nav {
 	background-color: #202935;
