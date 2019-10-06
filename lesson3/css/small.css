@@ -4,9 +4,6 @@ body {
     font-family: 'Questrial', sans-serif;
 }
 
-#logo img {
-    float: left;
-}
 
 header,
 footer {
@@ -36,6 +33,14 @@ header h1 {
 }
 header h2 {
     color: blanchedalmond;
+}
+#page{
+    margin-bottom: 3px;
+    padding: 5px;
+}
+#nombre{
+    margin-top: 3px;
+    padding: 5px;
 }
 
 h1{
