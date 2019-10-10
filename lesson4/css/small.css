@@ -1,0 +1,40 @@
+body{
+    font-size: 16px;
+    font-family:'Questrial', sans-serif;
+}
+
+header{
+    background-color: #2059AD;
+    color: white;   
+}
+
+nav {
+    background-color: #293A53;
+}
+
+nav button{
+    margin: .2rem 2%;
+    background-color: transparent;
+    border: none;
+    font-size: 1.3rem;
+    color: #ffff;
+
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li a {
+    display: block;
+    text-decoration: none;
+    padding: .8rem 2%;
+    color: white;
+    border-top: solid rgba(32, 41, 53, 2);
+}
+
+nav ul li a:hover { background-color: rgba(215, 180, 47, 2); color: #000; }  
+
+nav ul li .active a{ background-color: rgba( 32, 41, 53, 2);}
