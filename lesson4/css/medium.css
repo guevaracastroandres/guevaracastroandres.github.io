@@ -1,11 +1,25 @@
-@media only screen and ( min-width: 35em){
+@media only screen and ( min-width: 35em)
+{
+    nav button {display: none;}
 
-    nav button {display: none};
+    .navigation {
+        display: flex;
+    }
 
-    nav ul li {
-        display: inline;
-         
-
+    .navigation li {
+        display: block;
+        flex: 1 1 100%;
     }  
 
+    header img {
+        width: 110px;
+        height: auto;
+    }
+
+    #getupsuntitle{
+        font-size: 3rem;
+    }
+   
+    
+    
 }

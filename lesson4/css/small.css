@@ -5,11 +5,39 @@ body{
 
 header{
     background-color: #2059AD;
-    color: white;   
+    padding: 10px 0;
+    color: white;
+    display: flex;
+    align-content: center;
+    justify-content: center;   
+}
+
+header img {
+	width: 80px;
+	height: auto;
+}
+
+#getupsuntitle{
+    margin-top: 7%;
+    margin-left: 10px;
+    margin-bottom: 3px;
+}
+
+.m {
+	font-style: italic;
+	letter-spacing: 1pt;
+	margin-left: 10px;
+	font-size: .9rem;
 }
 
 nav {
     background-color: #293A53;
+}
+
+.navigation {
+	list-style: none;
+	text-align: center;
+    padding: 0;
 }
 
 nav button{
@@ -18,7 +46,7 @@ nav button{
     border: none;
     font-size: 1.3rem;
     color: #ffff;
-
+    padding: 5px;
 }
 
 nav ul {
@@ -38,3 +66,11 @@ nav ul li a {
 nav ul li a:hover { background-color: rgba(215, 180, 47, 2); color: #000; }  
 
 nav ul li .active a{ background-color: rgba( 32, 41, 53, 2);}
+
+
+
+
+
+
+
+
