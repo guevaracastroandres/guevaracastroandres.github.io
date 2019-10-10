@@ -34,7 +34,7 @@ nav {
     background-color: #293A53;
 }
 
-.navigation {
+#primaryNav {
 	list-style: none;
 	text-align: center;
     padding: 0;
@@ -66,6 +66,8 @@ nav ul li a {
 nav ul li a:hover { background-color: rgba(215, 180, 47, 2); color: #000; }  
 
 nav ul li .active a{ background-color: rgba( 32, 41, 53, 2);}
+
+
 
 
 
