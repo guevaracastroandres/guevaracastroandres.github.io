@@ -35,7 +35,7 @@ header img {
 
 nav {
 	margin: 0 auto;
-	max-width: 760px;
+	max-width: 1500px;
 	background-color: #293A53;
 }
 .navigation {
@@ -57,8 +57,8 @@ nav {
 	text-decoration: none;
 }
 .navigation a:hover {
-	color: #000;
-	background-color: #D7B42F;
+	color: #FFCF1B;
+	background-color: #29528E;
 	font-weight: 700;
 }
 
@@ -69,4 +69,30 @@ nav ul {
 
 .responsive li {
 	display: block;
+}
+
+h2{
+	text-align: center;
+}
+
+.contentbox {
+
+background-color: #D7B42F;
+padding: 1rem;
+margin: 10px;
+border: #7D6F38;
+border-style: dotted;
+
+
+}
+
+footer{
+	background-color: #2059AD;
+        color: #fff;
+        padding: 2rem;
+        text-align: center;
+}
+
+footer a {
+	color: white;
 }
