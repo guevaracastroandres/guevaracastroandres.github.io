@@ -1,0 +1,99 @@
+
+body{
+    font-size: 16px;
+    font-family:'Questrial', sans-serif;
+}
+
+header{
+    background-color: #2059AD;
+	padding: 10px 0;
+	margin: 0;
+    color: white;
+    display: flex;
+    align-content: center;
+    justify-content: center;   
+}
+
+header img {
+	width: 80px;
+	height: auto;
+}
+
+
+#getupsuntitle{
+    margin-top: 7%;
+    margin-left: 10px;
+    margin-bottom: 3px;
+}
+
+.m {
+	font-style: italic;
+	letter-spacing: 1pt;
+	margin-left: 10px;
+	font-size: .9rem;
+}
+
+nav {
+	margin: 0 auto;
+	max-width: 1500px;
+	background-color: #293A53;
+}
+.navigation {
+	list-style: none;
+	text-align: center;
+	padding: 0;
+}
+.navigation li:first-child {
+	display: block;
+}
+.navigation li {
+	display: none;
+}
+.navigation a {
+	display: block;
+	color: #fff;
+	padding: 0.75rem;
+	text-align: center;
+	text-decoration: none;
+}
+.navigation a:hover {
+	color: #FFCF1B;
+	background-color: #29528E;
+	font-weight: 700;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+}
+
+.responsive li {
+	display: block;
+}
+
+h2{
+	text-align: center;
+}
+
+.contentbox {
+
+background-color: #D7B42F;
+padding: 1rem;
+margin: 10px;
+border: #7D6F38;
+border-style: dotted;
+
+
+}
+
+footer{
+	background-color: #2059AD;
+        color: #fff;
+        padding: 2rem;
+        text-align: center;
+}
+
+footer a {
+	color: white;
+	
+}
