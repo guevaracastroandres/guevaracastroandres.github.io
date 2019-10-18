@@ -97,7 +97,7 @@ h2{
 	width: 120px;
 	height: 135px; 
 	position: absolute;
-	top: 0.5em;
+	top: 0;
 	right: 20px;
 	background-color:#E2B629;
 	padding: 2px 1em;
@@ -127,7 +127,29 @@ h2{
  color: #29528E;
  text-shadow: none;
 }
+/* articulo informativos*/
 
+.article{
+	margin: auto;
+	width:300px ;
+	padding: 10%;
+}
+
+div> article {
+	background-color: #FBFFC0;
+}
+
+.picnicimg{
+	display: block;
+	margin-left:0;
+	margin-right:0;
+	width: 300px;
+} 
+
+.textArticlePinic{
+	text-align: center;
+	padding: 1em;
+}
 
 
 /*final de la pagina */
