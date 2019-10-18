@@ -9,15 +9,15 @@
         content=" This responsive web page of a weather site to the course CIT 230 Fronted Development">
     <title>Preston Town Page</title>
     <link rel="incon-top-page" href="/lesson4/image/favicon.ico">
-    <link href="/lesson4/css/small.css" rel="stylesheet">
-    <link href="/lesson4/css/medium.css" rel="stylesheet">
-    <link href="/lesson4/css/large.css" rel="stylesheet">
+    <link href="/lesson5/css/small.css" rel="stylesheet">
+    <link href="/lesson5/css/medium.css" rel="stylesheet">
+    <link href="/lesson5/css/large.css" rel="stylesheet">
 </head>
 
 <body>
     <header>
         <picture>
-           <img src="/lesson4/image/sun.png" alt="Logo Get Up Sun">
+           <img src="/lesson5/image/sun.png" alt="Logo Get Up Sun">
         </picture>
         <section>
             <h1 id="getupsuntitle"> GetUp Sun </h1>
@@ -37,11 +37,31 @@
     </nav>
     <main>
         <h2>Preston Idaho</h2>
-        <div class="contentbox">
-         <img src="/lesson5/image/preston-op.jpg" alt="Preston picture"> 
+        <div class="herodiv">
+                <img class="heroimg" src="/lesson5/image/preston-op.jpg" alt="Preston picture">
+          <section class="wheatersummary">
+                <h3 id="boxtitle">Wheater Summary:</h3>
+                <hr>
+                <p class="textBox">Currently: <span class="textBoxout">Sunny</span></p>
+                <p class="textBox">High: <span class="textBoxout"> 76°F</span></p>
+                <p class="textBox">Wind chill: <span class="textBoxout">°F</span></p>
+                <p class="textBox">humidity: <span class="textBoxout"> 69%</span></p>
+                <p class="textBox">Wind Spped: <span class="textBoxout">5mph</span></p>
+            </section>
         </div>
-        <div class="contentbox"> 5 Day Forecast </div>
-        <div class="contentbox"> Article </div>
+        <div class="forecastdiv"> 
+                <h3 id="titleforecast">5 Day Forecast</h3>
+                <ul class="forecast"> 
+                    <li class="forecastli">Wed <br> 89°F <img  class="iconForecast"  src="/lesson5/image/contraste.png" alt="sun icon" ></img></li>
+                    <li class="forecastli">Thu <br> 87°F  <img class="iconForecast" src="/lesson5/image/contraste.png" alt="sun icon"></img></li>
+                    <li class="forecastli">Fri <br> 78°F <img class="iconForecast" src="/lesson5/image/contraste.png" alt="sun icon"></img></li>
+                    <li class="forecastli">Sat <br> 73°F <img class="iconForecast" src="/lesson5/image/dom.png"       alt="cloud icon"></img></li>
+                    <li class="forecastli">Sun <br> 68°F  <img class="iconForecast" src="/lesson5/image/relampago.png" alt="Thunderbolt icon"></img></li>
+                </ul>
+        </div>
+        <div class="Article">  
+
+        </div>
         <div class="contentbox"> Contac information</div>
     </main>
     <footer>
@@ -51,10 +71,10 @@
               
             
         <!-- Display Menu Small view Function-->
-            <script src="/lesson4/js/Menu hamburger.js"></script>
+            <script src="/lesson5/js/Menu hamburger.js"></script>
             
         <!-- Display Date-->   
-            <script src="/lesson4/js/hours.js"></script>
+            <script src="/lesson5/js/hours.js"></script>
        
     </footer>
 
