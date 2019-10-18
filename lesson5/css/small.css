@@ -2,7 +2,7 @@
 @media only screen and (max-width: 518px) {  .forecastdiv { display: none;} }
 
 body{
-    font-size: 16px;
+    font-size: 13px;
     font-family:'Questrial', sans-serif;
 }
 
@@ -34,6 +34,10 @@ header img {
 	margin-left: 10px;
 	font-size: .9rem;
 }
+
+
+
+
 
 /* menu de navegacion*/
 nav {
@@ -77,6 +81,9 @@ nav ul {
 h2{
 	text-align: center;
 }
+
+
+
 
 
 /* Forecast cuadros de clima */
@@ -127,13 +134,20 @@ h2{
  color: #29528E;
  text-shadow: none;
 }
+
+
+
+
+
 /* articulo informativos*/
 
 .article{
-	margin: auto;
-	width:300px ;
+	margin-left: auto;
+	margin-right: auto;
+	width:290px ;
 	padding: 10%;
 }
+
 
 div> article {
 	background-color: #FBFFC0;
@@ -143,13 +157,33 @@ div> article {
 	display: block;
 	margin-left:0;
 	margin-right:0;
-	width: 300px;
+	width: 290px;
 } 
+
+article .titlearticle{
+	text-align: center;
+}
+
+article .autor{
+	margin-top: 5px;
+	padding: 2px;
+	text-align: center;
+}
 
 .textArticlePinic{
 	text-align: center;
 	padding: 1em;
+	margin: 2px;
 }
+
+
+
+
+/* map Div */
+
+
+
+
 
 
 /*final de la pagina */
