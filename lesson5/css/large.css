@@ -86,4 +86,30 @@
         margin: 20px 15px 10px 14px;
     }
 
+
+
+
+    /* map and info content*/
+
+
+	.mapsection{
+		height: 305px;
+	}
+
+    .mapsection #MapPreston {
+		width: 270px;
+		margin: 15px 15px 15px 40px;
+    }
+    
+    div .infocontact{
+        margin-top: 8px;
+    }
+
+    .mapsection h3{
+        padding-top: 48px;
+    }
+
+    .mapsection img{
+        margin-bottom: 0px;
+    }
 }

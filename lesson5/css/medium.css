@@ -50,7 +50,7 @@
     .forecastdiv{
         max-width: 650px;
 		margin: 0 auto;
-		margin-bottom: 5px;
+		margin-bottom: -40px;
     }
     
     .forecastdiv ul {
@@ -90,5 +90,25 @@
 		 width: 500px;
 	}
 		
+
+	/* map and info content*/
+
+
+
+	.mapsection{
+		margin-top: -50px;
+		margin-bottom: 15px;
+		width: 90%;
+		height: 230px;
+		text-align: center;
+	}
+
+	
+	.mapsection #MapPreston {
+		float: left;
+		border: 2px solid #293A53;
+		width: 200px;
+		margin: 15px 15px 15px 40px;
+	}
 
 }
