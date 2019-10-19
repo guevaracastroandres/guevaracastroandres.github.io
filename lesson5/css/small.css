@@ -63,11 +63,17 @@ nav {
 	text-align: center;
 	text-decoration: none;
 }
+
+.active:active {
+	background-color: #FFCF1B;
+}
+
 .navigation a:hover {
 	color: #FFCF1B;
 	background-color: #29528E;
 	font-weight: 700;
 }
+
 
 nav ul {
     margin: 0;
