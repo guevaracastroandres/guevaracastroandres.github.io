@@ -1,0 +1,231 @@
+
+@media only screen and (max-width: 518px) {  .forecastdiv { display: none;} #MapPreston {display: none;} }
+
+body{
+    font-size: 13px;
+    font-family:'Questrial', sans-serif;
+}
+
+header{
+    background-color: #2059AD;
+	padding: 10px 0;
+	margin: 0;
+    color: white;
+    display: flex;
+    align-content: center;
+    justify-content: center;   
+}
+
+header img {
+	width: 80px;
+	height: auto;
+}
+
+
+#getupsuntitle{
+    margin-top: 7%;
+    margin-left: 10px;
+    margin-bottom: 3px;
+}
+
+.m {
+	font-style: italic;
+	letter-spacing: 1pt;
+	margin-left: 10px;
+	font-size: .9rem;
+}
+
+
+
+
+
+/* menu de navegacion*/
+nav {
+	margin: 0 auto;
+	max-width: 1500px;
+	background-color: #293A53;
+}
+.navigation {
+	list-style: none;
+	text-align: center;
+	padding: 0;
+}
+.navigation li:first-child {
+	display: block;
+}
+.navigation li {
+	display: none;
+}
+.navigation a {
+	display: block;
+	color: #fff;
+	padding: 0.75rem;
+	text-align: center;
+	text-decoration: none;
+}
+
+.active:active {
+	background-color: #FFCF1B;
+}
+
+.navigation a:hover {
+	color: #FFCF1B;
+	background-color: #29528E;
+	font-weight: 700;
+}
+
+
+nav ul {
+    margin: 0;
+    padding: 0;
+}
+
+.responsive li {
+	display: block;
+}
+
+h2{
+	text-align: center;
+}
+
+
+
+
+
+/* Forecast cuadros de clima */
+
+.herodiv{
+	position: relative;
+	margin: 10px auto;
+}
+
+.heroimg{
+	margin-left: auto;
+    margin-right: auto;
+	display: block;
+	width: 100%;
+}
+
+.wheatersummary {
+	width: 120px;
+	height: 135px; 
+	position: absolute;
+	top: 0;
+	right: 20px;
+	background-color:#E2B629;
+	padding: 2px 1em;
+	font-size: 10px;
+}
+
+#boxtitle{
+	color: white;
+	text-shadow: 2px 2px black;
+	text-align: center;
+	padding: 2px;
+	margin: 0.2em ;
+	
+}
+
+.textBox{
+	text-align: left;
+	opacity: 10;
+	font-weight: bold;
+	margin: 0.5em;
+	color: white;
+	text-shadow: 1px 1px black;
+}
+
+.textBoxout{
+ text-align: right;
+ color: #29528E;
+ text-shadow: none;
+}
+
+
+
+
+
+/* articulo informativos*/
+
+.article{
+	margin-left: auto;
+	margin-right: auto;
+	width:290px ;
+	padding: 10%;
+}
+
+
+div> article {
+	background-color: #FBFFC0;
+}
+
+.picnicimg{
+	display: block;
+	margin-left:0;
+	margin-right:0;
+	width: 290px;
+} 
+
+article .titlearticle{
+	text-align: center;
+}
+
+article .autor{
+	margin-top: 5px;
+	padding: 2px;
+	text-align: center;
+}
+
+.textArticlePinic{
+	text-align: center;
+	padding: 1em;
+	margin: 2px;
+}
+
+
+
+
+/* map Div */
+
+.mapsection{
+	background-color: #B2B2B2;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: -30px;
+	margin-bottom: 15px;
+	width: 90%;
+	text-align: center;
+}
+
+.mapsection h3{
+	text-align: center;
+	padding-top: 20px;
+}
+
+.mapsection p{
+	margin: 2px;
+	padding: 1px;
+}
+
+.mapsection img{
+	width: 24px;
+	margin-top:  10px;
+	margin-bottom: 10px;
+}
+
+
+
+
+/*final de la pagina */
+
+footer{
+	background-color: #2059AD;
+        color: #fff;
+        padding: 2rem;
+        text-align: center;
+}
+
+footer a {
+	color: white;
+	
+}
