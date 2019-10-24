@@ -38,14 +38,12 @@
     <main>
         <h2>Preston Idaho</h2>
         <div class="herodiv">
-                <img class="heroimg" src=" " alt="Preston picture"
-                 srcset="
-                 /lesson6/image/small-hero.jpg 512w ,
-                 /lesson6/image/medium-hero.jpg 900w , 
-                 /lesson6/image/large-hero.jpg 1300w ">
-                 
-                <source srcset="//lesson6/image/large-hero.jpg" media="(min-width: 960px) and (max-width: 1600px)">
-          <section class="wheatersummary">
+            <picture>
+                <source srcset="/lesson6/image/large-hero.jpg" media="(min-width: 960px)">
+                <source srcset="/lesson6/image/medium-hero.jpg" media="(min-width: 500px)">
+                <img class="heroimg" src="/lesson6/image/small-hero.jpg" alt="Preston picture">       
+            </picture>
+            <section class="wheatersummary">
                 <h3 id="boxtitle">Wheater Summary:</h3>
                 <hr>
                 <p class="textBox">Currently: <span class="textBoxout">Sunny</span></p>
