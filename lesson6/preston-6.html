@@ -47,10 +47,10 @@
                 <h3 id="boxtitle">Wheater Summary:</h3>
                 <hr>
                 <p class="textBox">Currently: <span class="textBoxout">Sunny</span></p>
-                <p class="textBox">High: <span class="textBoxout"> 76°F</span></p>
-                <p class="textBox">Wind chill: <span class="textBoxout">°F</span></p>
+                <p class="textBox">High:<input type="text" id="widnspeed" size="2"></p>
+                <button type="button" onclick="windchill()">Wind Child:</button><span id="output" class="textBoxout"></span>
                 <p class="textBox">humidity: <span class="textBoxout"> 69%</span></p>
-                <p class="textBox">Wind Spped: <span class="textBoxout">5mph</span></p>
+                <p class="textBox">Wind Spped:<input type="text" id="temperature" size="2">mph</p>
             </section>
         </div>
         <div class="forecastdiv"> 
@@ -93,13 +93,17 @@
             &copy;GetUp Sun │ Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a
             href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a> │ <a href="https://www.byui.edu/online">BYU Online Learning</a>
             <br><span id="Datenow"></span> <span id="hours"></span>
-              
+            <div id="windChild"> </div>
+            <button type="button" onclick="windchill()">clik</button> 
             
         <!-- Display Menu Small view Function-->
             <script src="/lesson6/js/Menu hamburger.js"></script>
             
         <!-- Display Date-->   
             <script src="/lesson6/js/hours.js"></script>
+
+        <!--Calculate windchild-->
+            <script src="js/windchill.js"></script>
        
     </footer>
 

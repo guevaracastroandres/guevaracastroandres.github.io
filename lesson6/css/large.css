@@ -17,13 +17,16 @@
 
     .wheatersummary {
 		width: 190px;
-		height: 190px; 
+		height: 215px; 
 		top: 6px;
 		right: 70px;
 		background-color:#E2B629;
 		font-size: 16px;
 	}
-    
+    button{
+        font-size: 16px;
+
+    }
 
     /*forecast box content*/
 

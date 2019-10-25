@@ -33,11 +33,15 @@
 	}
 
 	.wheatersummary {
-		width: 145px;
-		height: 182px; 
+		width: 160px;
+		height: 200px; 
 		top: 0.4em;
 		right: 20px;
 		background-color:#E2B629;
+		font-size: 14px;
+	}
+
+	button{
 		font-size: 14px;
 	}
 

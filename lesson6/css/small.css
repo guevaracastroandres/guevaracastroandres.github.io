@@ -92,7 +92,7 @@ h2{
 
 
 
-/* Forecast cuadros de clima */
+/* wheater summary */
 
 .herodiv{
 	position: relative;
@@ -107,8 +107,8 @@ h2{
 }
 
 .wheatersummary {
-	width: 120px;
-	height: 135px; 
+	width: 130px;
+	height: 165px; 
 	position: absolute;
 	top: 0;
 	right: 20px;
@@ -117,12 +117,28 @@ h2{
 	font-size: 10px;
 }
 
+button{
+	font-size: 10px;
+	color:white;
+	background-color: #E2B629;
+	text-decoration: none;
+	font-weight: bold;
+	text-shadow: 1px 1px black;
+}
+
 #boxtitle{
 	color: white;
 	text-shadow: 2px 2px black;
 	text-align: center;
 	padding: 2px;
-	margin: 0.2em ;
+	margin: 0.2em;
+}
+
+input{
+	background:rgb(255, 219, 100);
+	color: #29528E;
+	border: none;
+	margin-left: 6px;
 	
 }
 
