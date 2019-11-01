@@ -251,7 +251,7 @@ position: relative;
 
 .container > div:hover{
 	box-shadow: 0 0 10px #333;
-	opacity: .5 black;
+	opacity: .5;
 	transition-duration: 250ms;
 }
 
