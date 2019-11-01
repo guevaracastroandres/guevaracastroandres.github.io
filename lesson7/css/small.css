@@ -90,7 +90,7 @@ h2{
 
 
 
-
+/**-----------------------------------------PRESTION PAGE ------------------------------------------------------*/
 
 /* wheater summary */
 
@@ -160,7 +160,7 @@ input{
 
 
 
-
+/**------------------------------------------------------------------------------------------------------*/
 
 /* articulo informativos*/
 
@@ -183,7 +183,7 @@ div> article {
 	width: 290px;
 } 
 
-article .titlearticle{
+article .des{
 	text-align: center;
 }
 
@@ -201,6 +201,7 @@ article .autor{
 
 
 
+/**-------------------------------------------------------------------------------------------------------*/
 
 /* map Div */
 
@@ -230,8 +231,61 @@ article .autor{
 	margin-bottom: 10px;
 }
 
+/**-------------------------------------------GALERY PAGE--------------------------------------------------*/
 
 
+.container{
+	width: 90%;
+	max-width: 1200px;
+	padding: 60px 30px;
+	margin: auto;
+	display: grid;
+	grid-template-columns: 90%; 
+	grid-template-rows: 250px; 
+	grid-gap: 30px;
+}
+
+.container > div{
+display: inline-block;
+position: relative;
+}
+
+.container > div:hover{
+	box-shadow: 0 0 10px #333;
+	opacity: .5;
+	transition-duration: 250ms;
+}
+
+ div img {
+	object-fit: cover;
+	width: 100%;
+	height: 100%;
+}
+
+.description{
+	width: 100%;
+	height: 40px;
+	background-color: #E0E0E0;
+	position: absolute;
+	bottom: 0px;
+	margin: 0;
+	text-align: center;
+}
+
+.description p {
+	margin-top: 10px;
+	font-weight: bold;
+}
+
+div img[data-src] {
+    filter: blur(0.2em);
+  }
+
+
+
+
+
+/**-------------------------------------------------------------------------------------------------------*/
 
 /*final de la pagina */
 

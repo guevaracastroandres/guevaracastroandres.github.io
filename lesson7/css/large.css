@@ -116,4 +116,12 @@
     .mapsection img{
         margin-bottom: 0px;
     }
+
+    /**-------------------------------------------GALERY PAGE--------------------------------------------------*/
+
+    .container{
+        grid-template-columns: 31.5% 31.5% 31.5%;
+        grid-template-rows: 250px 250px 250px;
+        grid-gap: 30px;
+    }
 }
