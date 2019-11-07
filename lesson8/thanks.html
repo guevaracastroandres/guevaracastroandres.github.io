@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+        <form method="get" action="/lesson8/thanks.html">
+            <fieldset>
+                <legend>Personal Information</legend>
+                <label class="top">First Name<input type="text" name="fname" pattern="[A-Za-Z]{5,}" required></label>
+                <label  class="top">E-mail<input type="email" name="email" placeholder="example@gmial.com"></label>
+                <label class="top">Phone<input type="tel" name="Phone" required></label>
+                <label class="top">Zip Code<input type="text" name="zipcode"  pattern="[0-9]" required></label>
+            </fieldset>
+            <fieldset>
+                <legend>Storm Report</legend>
+                <label class="top">Storm Date<input type="date" name="Stormdate"></label>
+                <label class="top">Storm Type
+                    <select name="Stormtype">
+                    <option value="FlashFlood">Flash Flood</option>
+                    <option value="Hail">Hail</option>    
+                    <option value="Hurricane">Hurricane</option>
+                    <option value="Thunderstorm">Thunderstorm</option>
+                    <option value="Tornado">Tornado</option>      
+                </label>
+                <label>
+                    Storm Severity <input type="range" name="stormSeveryty" id="rating" value="5" min="1" max="10" step="1" oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">
+                    <span id="ratingvalue">5</span> 
+                </label>
+                <label class="top">Storm region
+                        <select name="Storregion">
+                        <option value=""> Select Region</option> 
+                        <option value="Preston">Preston</option>
+                        <option value="Preston">Sugar City</option>
+                        <option value="Preston">Fish Haven</option>
+                </label> 
+                <div>Are you hurt</div>
+                <label class="top"><input type="radio" name="userHurt" value="yes">yes</label>
+                    <label class="top"><input type="radio" name="userHurt" value="maybe">maybe</label>
+                    <label class="top"><input type="radio" name="userHurt" value="no">no</label>
+            </fieldset>
+            <fieldset>
+                <legend>Additional Remarks</legend>
+                <textarea rows="9" cols="40" name="coment" placeholder="Type here"></textarea>
+            </fieldset>
+                <input type="submit" value="Share">
+            </form>   
+</body>
+</html>
