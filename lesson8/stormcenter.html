@@ -54,9 +54,10 @@
             <option value="Hail">Hail</option>    
             <option value="Hurricane">Hurricane</option>
             <option value="Thunderstorm">Thunderstorm</option>
-            <option value="Tornado">Tornado</option>      
+            <option value="Tornado">Tornado</option>
+            </select>      
         </label>
-        <label>Storm Severity<input type="range" name="stormSeveryty" id="rating" value="5" min="1" max="10" step="1" oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">
+        <label class="sectiontitle">Storm Severity<input type="range" name="stormSeveryty" id="rating" value="5" min="1" max="10" step="1" oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">
             <span id="ratingvalue">5</span> 
         </label>
         <label class="top">Storm region
@@ -65,11 +66,12 @@
                 <option value="Preston">Preston</option>
                 <option value="Preston">Sugar City</option>
                 <option value="Preston">Fish Haven</option>
+                </select>
         </label> 
-        <div>Are you hurt</div>
-        <label class="top"><input type="radio" name="userHurt" value="yes">yes</label>
-            <label class="top"><input type="radio" name="userHurt" value="maybe">maybe</label>
-            <label class="top"><input type="radio" name="userHurt" value="no">no</label>
+        <div class="sectiontitle">  Are you hurt?</div>
+            <label class="sbs"><input type="radio" name="userHurt" value="yes">yes</label>
+            <label class="sbs"><input type="radio" name="userHurt" value="maybe">maybe</label>
+            <label class="sbs"><input type="radio" name="userHurt" value="no">no</label>
     </fieldset>
     <fieldset>
         <legend>Additional Remarks</legend>

@@ -257,10 +257,10 @@ div img[data-src] {
  /**-------------------form----------------------*/
 
 form fieldset{
-	margin: 2rem;
 	border: 1px solid #293A53;
 	border-radius: 10px;
 	padding: .5rem 2%;
+	background-color: #f9f9f9;
 }
 
 form legend{
@@ -272,7 +272,32 @@ form legend{
 form label.top, form div{
 	display: block;
 	padding: 0.5rem;
-	font-size: .8rem;
+	font-size: 1rem;
+}
+
+form label.top input, form label.top select {
+	display: block;
+	font-size: 1rem;
+	border-radius: 4px;
+	padding: .50em;
+	width: 100%;
+	max-width: 20rem;
+}
+
+form label.sbs {
+    display: block;
+	margin: .4rem 0;
+}
+
+ form label.sectiontitle, form div{
+	 margin-top: 10px;
+	 font-size: 1.5em;
+	 color:#a52828;
+ }
+
+form label span{
+	display: inline;
+	font-weight: bold;
 }
 
 
