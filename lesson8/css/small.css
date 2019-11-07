@@ -256,11 +256,25 @@ div img[data-src] {
 
  /**-------------------form----------------------*/
 
+
+.containerform{
+width: 100%;
+
+}
+
+
+.containerform h1{
+	 margin: auto;
+	 color: #293A53;
+	 }
+
 form fieldset{
-	border: 1px solid #293A53;
+	border: 1px solid #c1c1c1;
 	border-radius: 10px;
 	padding: .5rem 2%;
 	background-color: #f9f9f9;
+	margin-top: 1rem ;
+	
 }
 
 form legend{
@@ -273,20 +287,23 @@ form label.top, form div{
 	display: block;
 	padding: 0.5rem;
 	font-size: 1rem;
+	color: #293A53;
 }
 
 form label.top input, form label.top select {
+	-webkit-apperance: none ;
 	display: block;
 	font-size: 1rem;
 	border-radius: 4px;
 	padding: .50em;
-	width: 100%;
-	max-width: 20rem;
+	width: 90%;
+	max-width: 18rem;
+	
 }
 
 form label.sbs {
     display: block;
-	margin: .4rem 0;
+	margin: .6rem 0;
 }
 
  form label.sectiontitle, form div{
@@ -300,9 +317,58 @@ form label span{
 	font-weight: bold;
 }
 
+#stormCenter{
+	max-width: 95%;
+	margin: auto;
+}
+
+.sumitButton{
+	border: none;
+	background-color: #29528E;
+	color: white;
+	border-radius: 1rem;
+	padding: .75rem 1.5rem;
+	width: 96%;
+	max-width: 18rem;
+	margin: 1rem 0 3rem 0 ;
+}
+
+form label.top input:required {
+	 border-left: solid #a52828 3px;
+}
+
+form label.top input:required:valid {
+	border-left: solid #00c220 3px;
+}
+/**-------------------------------------------Thanks Section------------------------------------------------*/
+
+main .thankssection{
+	margin: 20px auto;
+	width: 80%;
+	
+
+}
+.thankssection {
+	display: flex;
+	position: relative;  
+}
+.thankssection img{
+
+	margin-left: 2% ;
+	height: 200px;
+}
+
+.thankssection h1{
+	text-align: left;
+	margin: 50px 2%;
+	color: #29528E;
+}
+
 
 
 /**-------------------------------------------------------------------------------------------------------*/
+
+
 
 /*final de la pagina */
 

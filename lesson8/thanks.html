@@ -1,12 +1,66 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <meta name="Description"
+        content=" This responsive web page of a weather site to the course CIT 230 Fronted Development">
+    <title>Preston Town Page</title>
+    <link rel="shortcut icon" href="/lesson7/image/favicon.ico">
+    <link href="/lesson8/css/small.css" rel="stylesheet">
+    <link href="/lesson8/css/medium.css" rel="stylesheet">
+    <link href="/lesson8/css/large.css" rel="stylesheet">
 </head>
+
 <body>
+    <header>
+        <picture>
+           <img src="/lesson7/images/icons/icons/sun.png" alt="Logo Get Up Sun">
+        </picture>
+        <section>
+            <h1 id="getupsuntitle"> GetUp Sun </h1>
+            <div class="m">How is the weather today?</div>
+        </section>
+    </header>
+    <nav>
+        <ul class="navigation">
+            <li><a  href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
+            <li><a  href="#">Home</a></li>
+            <li><a  href="/lesson5/preston-5.html">Preston</a></li>
+            <li><a  href="#">Soda Springs</a></li>
+            <li><a  href="#">Fish Haven</a></li>
+            <li><a  href="/lesson8/stormcenter.html">Strom Center</a></li>
+            <li><a  href="/lesson7/gallery-7.html">Gallery</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section class="thankssection">
+            <img src="/lesson8/image/operador.png" alt="Imangen de agradecimiento">
+            <h1>Your report was sent successfully</h1>
+        </section>
+    </main>
+    <footer>
+            &copy;GetUp Sun │ Icons made by <a href="" title="Freepik">Freepik</a> from <a
+            href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a> │ <a href="https://www.byui.edu/online">BYU Online Learning</a>
+            <a href="https://www.freepik.es/fotos-vectores-gratis/negocios">Vector de Negocios creado por freepik - www.freepik.es</a>
+            <br><span id="Datenow"></span> <span id="hours"></span>
+            
+        <!-- Display Menu Small view Function-->
+            <script src="/lesson8/js/menuHamburger.js"></script>
+            
+        <!-- Display Date-->   
+            <script src="/lesson8/js/hours.js"></script>
     
-</body>
-</html>
+        <!-- load the images porgressive-->
+            <script src="/lesson8/js/progresiveload.js"></script>
+        
+        <!-- Rate controler -->
+            <script src="/lesson8/js/rating.js" ></script>
+    
+            <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    </footer>
+    
+    </body>
+    </html>

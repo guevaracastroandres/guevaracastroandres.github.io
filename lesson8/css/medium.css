@@ -121,5 +121,20 @@
 		grid-template-columns: 47.5% 47.5%;
 		grid-template-rows: 250px 250px;
 	}
+/**-------------------------------------------STROM CENTER--------------------------------------------------*/
+
+	.containerform{
+		width: 90%;
+		}
+/**-------------------------------------------Thanks Section------------------------------------------------*/
+
+.thankssection img{
+	height: 400px;
+}
+
+.thankssection h1{
+	margin: 100px 4%;
+	font-size: 3rem;
+}
 
 }
