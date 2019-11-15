@@ -27,5 +27,3 @@ fetch(requestURL)
     document.querySelector('div.cards').appendChild(card);
     }
   });
-
-  const prophets = jsonObject['prophets'];
