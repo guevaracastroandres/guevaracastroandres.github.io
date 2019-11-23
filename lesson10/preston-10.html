@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="Description"
+        content=" This responsive web page of a weather site to the course CIT 230 Fronted Development">
+    <title>Preston Town Page</title>
+    <link rel="shortcut icon" href="/lesson7/image/favicon.ico">
+    <link href="/lesson10/css/small.css" rel="stylesheet">
+    <link href="/lesson10/css/medium.css" rel="stylesheet">
+    <link href="/lesson10/css/large.css" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <picture>
+           <img src="/lesson6/image/icons/sun.png" alt="Logo Get Up Sun">
+        </picture>
+        <section>
+            <h1 id="getupsuntitle"> GetUp Sun </h1>
+            <div class="m">How is the weather today?</div>
+        </section>
+    </header>
+    <nav>
+        <ul class="navigation">
+            <li><a  href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
+            <li><a  href="#">Home</a></li>
+            <li><a  href="/lesson5/preston-5.html">Preston</a></li>
+            <li><a  href="#">Soda Springs</a></li>
+            <li><a  href="#">Fish Haven</a></li>
+            <li><a  href="/lesson8/stormcenter.html">Strom Center</a></li>
+            <li><a  href="/lesson7/gallery-7.html">Gallery</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h2>Preston Idaho</h2>
+        <div class="herodiv">
+            <img class="heroimg" src="/lesson5/image/preston-op.jpg" alt="Preston picture">
+      <section class="wheatersummary">
+            <h3 id="boxtitle">Wheater Summary:</h3>
+            <hr>
+            <p class="textBox">Currently: <span class="textBoxout" id="currently-temp"></span></p>
+            <p class="textBox">High: <span class="textBoxout" id="high"></span></p>
+            <p class="textBox">Wind chill: <span class="textBoxout" id="wc"></span></p>
+            <p class="textBox">humidity: <span class="textBoxout" id="humidity"></span></p>
+            <p class="textBox">Wind Spped: <span class="textBoxout" id="speed"></span></p>
+        </section>
+    </div>
+    <h2 id="titleforecast">5 Day Forecast</h2>
+        <div class="forecastdiv"> 
+        </div>
+        <div class="article"> 
+            <article>
+             <img class="picnicimg" src="/lesson5/image/fotoarticle.jpg" alt="familia picnic"></img>   
+             <h3 class= "titlearticle" >Family Picnic</h3>
+             <p class= "autor"><i>By Andres Castro</i></p>
+             <p class= "textArticlePinic">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fuga dolor excepturi necessitatibus quae saepe dolores in et 
+              possimus alias earum hic ipsum quas distinctio minima voluptatem magnam, ut quis. Repellat. Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+              Delectus eius quam voluptatem culpa, accusantium natus quae expedita repellat voluptate corporis deserunt incidunt fugiat beatae possimus ipsam, 
+              provident maxime sit necessitatibus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus quaerat, ut earum consectetur reiciendis enim 
+              dignissimos porro explicabo fugiat voluptate! Deleniti, accusamus laboriosam! Voluptatem illo aperiam, iste pariatur sequi nulla!</p>  
+            </article> 
+        </div>
+        <div class="mapsection">
+            <img id="MapPreston" src="/lesson6/image/prestonmap.png" alt="">
+            <h3>GetUp Sun </h3>
+            <p class="infocontact">30 N 1st E </p>
+            <p class="infocontact">Prestop ID 83263</p>
+            <p class="infocontact">999 999 9999 </p>
+            <p class="infocontact">guevaracastroandres@gmail.com</p>
+            <p> <a href="https://web.whatsapp.com/"><img .class="contacticon" src="/lesson6/image/icons/whatsapp.png" alt="Whatsapp icon"></a>
+                <a href="https://www.facebook.com/"><img .class="contacticon" src="/lesson6/image/icons/facebook.png" alt="Facebook icon"></a> 
+                <a href="https://twitter.com/"><img .class="contacticon" src="/lesson6/image/icons/gorjeo.png" alt="Twitter icon"></a> 
+                <a href="https://www.linkedin.com/feed/"><img .class="contacticon" src="/lesson6/image/icons/linkedin.png" alt="linkedin icon>"></a>
+            </p>
+        </div>
+    </main>
+    <footer>
+            &copy;GetUp Sun │ Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a
+            href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a> │ <a href="https://www.byui.edu/online">BYU Online Learning</a>
+            <br><span id="Datenow"></span> <span id="hours"></span>
+            
+      <!-- Display Menu Small view Function-->
+      <script src="/lesson10/js/menuHamburger.js"></script>
+        
+      <!-- Display Date-->   
+          <script src="/lesson10/js/hours.js"></script>
+  
+      <!-- load the images porgressive-->
+          <script src="/lesson10/js/progresiveload.js"></script>
+      
+      <!-- Rate controler -->
+          <script src="/lesson10/js/rating.js" ></script>
+
+      <!-- JSON wheater summary -->
+          <script src="js/prestonwheatersummary.js"></script>
+       
+      <!-- Wind chis --> 
+          <script src="js/windChill.js"></script>
+
+    <!-- JSON forecast -->
+          <script src="js/forecast.js"></script>
+
+  
+
+            <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+            <script>
+                WebFont.load({
+                google: {
+                    families: [
+                    'Questrial', 
+                    ]
+                }
+                });
+            </script>
+            
+       
+    </footer>
+
+</body>
+
+</html>
+
+<a href="https://www.freepik.es/fotos-vectores-gratis/bebe">Foto de Bebé creado por freepic.diller - www.freepik.es</a>
