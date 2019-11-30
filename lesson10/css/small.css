@@ -183,6 +183,11 @@ input{
 	margin-right: auto;
 	width:290px ;
 	padding: 10%;
+	margin-top: 0px;
+}
+
+.article article{
+	margin-top: -2em;
 }
 
 
