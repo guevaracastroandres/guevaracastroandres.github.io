@@ -9,15 +9,12 @@
         content=" This responsive web page of a weather site to the course CIT 230 Fronted Development">
     <title>Preston Town Page</title>
     <link rel="shortcut icon" href="/lesson7/image/favicon.ico">
-    <link href="/lesson10/css/small.css" rel="stylesheet">
-    <link href="/lesson10/css/medium.css" rel="stylesheet">
-    <link href="/lesson10/css/large.css" rel="stylesheet">
+    <link href="/lesson11/css/small.css" rel="stylesheet">
+    <link href="/lesson11/css/medium.css" rel="stylesheet">
+    <link href="/lesson11/css/large.css" rel="stylesheet">
 </head>
 
 <body>
-    <div id="pancakead" class="pancakestyle">
-        <p>Saturday = Preston Pancakes in the Park! 9:00 a.m. Saturday at the city park pavilion.</p>
-    </div>
     <header>
         <picture>
             <a href="/lesson9/index.html"><img src="/lesson6/image/icons/sun.png" alt="Logo Get Up Sun"></a>
@@ -42,42 +39,49 @@
         <h2>Preston Idaho</h2>
         <div class="herodiv">
             <picture>
-                <source srcset="/lesson6/image/large-hero.jpg" media="(min-width: 960px)">
-                <source srcset="/lesson6/image/medium-hero.jpg" media="(min-width: 500px)">
-                <img class="heroimg" src="/lesson6/image/small-hero.jpg" alt="Preston picture">       
+                <source srcset="/lesson11/image/herolarge.jpg" media="(min-width: 960px)">
+                <source srcset="/lesson11/image/sodaheromedium.jpg" media="(min-width: 500px)">
+                <img class="heroimg" src="/lesson11/image/sodaherosmall.jpg" alt="Preston picture">       
             </picture>
       <section class="wheatersummary">
             <h3 id="boxtitle">Wheater Summary:</h3>
             <hr>
-            <p class="textBox">Currently: <span class="textBoxout" id="currently-temp"></span></p>
-            <p class="textBox">High: <span class="textBoxout" id="high"></span></p>
-            <p class="textBox">Wind chill: <span class="textBoxout" id="wc"></span></p>
-            <p class="textBox">humidity: <span class="textBoxout" id="humidity"></span></p>
-            <p class="textBox">Wind Spped: <span class="textBoxout" id="speed"></span></p>
+            <p class="textBox">Currently: <span class="textBoxout" id="Scurrently-temp"></span></p>
+            <p class="textBox">High: <span class="textBoxout" id="Shigh"></span></p>
+            <p class="textBox">Wind chill: <span class="textBoxout" id="Swc"></span></p>
+            <p class="textBox">humidity: <span class="textBoxout" id="Shumidity"></span></p>
+            <p class="textBox">Wind Spped: <span class="textBoxout" id="Sspeed"></span></p>
         </section>
-    </div>
-    <h2 id="titleforecast">5 Day Forecast</h2>
+        <h2 id="titleforecast">5 Day Forecast</h2>
         <div class="forecastdiv"> 
         </div>
-        <div class="article"> 
-            <article>
-             <img class="picnicimg" src="/lesson5/image/fotoarticle.jpg" alt="familia picnic">   
-             <h3 class= "titlearticle" >Family Picnic</h3>
-             <p class= "autor"><i>By Andres Castro</i></p>
-             <p class= "textArticlePinic">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fuga dolor excepturi necessitatibus quae saepe dolores in et 
+        <div class="articlefish">
+        <div class=></div>     
+            <div>
+             <img src="/lesson11/image/placeholder.jpg" data-src="/lesson11/image/undertherain.jpg" alt= "girl under the rain">    
+             <h3>Family Picnic</h3>
+             <p><i>By Andres Castro</i></p>
+             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fuga dolor excepturi necessitatibus quae saepe dolores in et 
               possimus alias earum hic ipsum quas distinctio minima voluptatem magnam, ut quis. Repellat. Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-              Delectus eius quam voluptatem culpa, accusantium natus quae expedita repellat voluptate corporis deserunt incidunt fugiat beatae possimus ipsam, 
-               dignissimos porro explicabo fugiat voluptate! Deleniti, accusamus laboriosam! Voluptatem illo aperiam, iste pariatur sequi nulla!</p>  
-            </article> 
+              Delectus eius quam voluptatem culpa, accusantium natus quae !</p>  
+            </div></div>>
+            <div>
+                <img src="/lesson9/images/imagesGallery/placeholder.jpg" data-src="/lesson9/images/home/sol.jpg" alt=" father and son fishing picture">   
+                <h3>Family Picnic</h3>
+                <p><i>By Andres Castro</i></p>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fuga dolor excepturi necessitatibus quae saepe dolores in et 
+                 possimus alias earum hic ipsum quas distinctio minima voluptatem magnam, ut quis. Repellat. Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                 Delectus eius quam voluptatem culpa, accusantium natus quae !</p>  
+            </div> 
         </div>
+
         <div class="mapsection">
             <div class="events"></div>
             <div>
                 <img id="MapPreston" src="/lesson11/image/ID_Fish Haven_83287.png" alt=" fish heaven map ">
             <h3>GetUp Sun </h3>
-            <p class="infocontact">30 N 1st E </p>
-            <p class="infocontact">Prestop ID 83263</p>
-            <p class="infocontact">149 979 8979 </p>
+            <p class="infocontact">Soda Springs ID 83287</p>
+            <p class="infocontact">168 949 5969 </p>
             <p class="infocontact">guevaracastroandres@gmail.com</p>
             <p> <a href="https://web.whatsapp.com/"><img class="contacticon" src="/lesson6/image/icons/whatsapp.png" alt="Whatsapp icon"></a>
                 <a href="https://www.facebook.com/"><img class="contacticon" src="/lesson6/image/icons/facebook.png" alt="Facebook icon"></a> 
@@ -108,20 +112,20 @@
           <script src="/lesson10/js/rating.js" ></script>
 
       <!-- JSON wheater summary -->
-          <script src="js/prestonwheatersummary.js"></script>
+          <script src="/lesson11/js/sodawheatersummary.js"></script>
        
       <!-- Wind chis --> 
           <script src="js/windChill.js"></script>
 
     <!-- JSON forecast -->
-          <script src="js/forecast.js"></script>
+          <script src="/lesson11/js/forecastSoda.js"></script>
 
-    <!-- JSON Events --> 
-          <script src="/lesson11/js/prestonevents.js"></script> 
+    <!-- Envents box -->
+          <script src="/lesson11/js/Sodaevents.js"></script> 
 
   
 
-            <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script src="js/" >
+            <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script src="/lesson11/js/Sodaevents.js"></script> >
             <script>
                 WebFont.load({
                 google: {
@@ -134,4 +138,3 @@
     </footer>
 </body>
 </html>
-

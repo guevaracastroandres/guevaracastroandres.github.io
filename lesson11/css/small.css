@@ -90,14 +90,11 @@ h2{
 
 /*-----------------------------------------------Preston page----------------------------------------------- */
 /*pancake Div */
-#pancakead{
-	display: none;
-}
-
 .pancakestyle{
 	background: rgba(255,190,10,1);
 	height: 3em;
 	padding: 15px;
+	display: none;
 }
 
 .pancakestyle p{
@@ -244,6 +241,31 @@ article .autor{
 	margin: 20px;
 	padding:20px;
 }
+
+
+/*------------------------------------------FISH HEAVEN-------------------------------------------------------*/
+ main .articlefish{
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 1121px;
+	display: grid;
+	grid-template-columns: 47.5% 47.5%;
+	grid-gap: 5%;
+	margin-bottom: 4em;
+	padding-bottom: 2em;
+	margin-top: 2em;
+}
+
+
+.articlefish img{
+	width: 100%;
+}
+
+.articlefish h3{
+	text-align: center;
+}
+
+
 
 
 /*final de la pagina */

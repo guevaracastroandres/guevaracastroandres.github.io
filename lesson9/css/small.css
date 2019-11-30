@@ -92,6 +92,18 @@ h2{
 
 /**-----------------------------------------PRESTION PAGE ------------------------------------------------------*/
 
+/*pancake Div */
+.pancakestyle{
+	background: rgba(255,190,10,1);
+	height: 3em;
+	padding: 15px;
+}
+
+.pancakestyle p{
+	font-style: bold;
+	text-align: center;
+	font-size: x-large;
+}
 /* wheater summary */
 
 .herodiv{
@@ -417,6 +429,11 @@ main .thankssection{
 	margin: 0;
 	background-color: #293A53;
 	box-shadow: 0 0 4px #333;
+}
+
+.towns img{
+	width: 150px;
+	height: 100px;
 }
 
 .articles{	
