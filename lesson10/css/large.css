@@ -30,29 +30,7 @@
 
     /*forecast box content*/
 
-    
-    .forecastdiv ul {
-        margin-left: 30px;
-        margin-right: auto;
-        padding: 0;
-        
-    }
-    
-    .forecastdiv ul li{
-        display: inline-block;
-        margin: 0;
-        padding-top: 10px;
-        padding-left: 38px;
-        padding-right: 38px;
-        height: 120px;
-        margin-bottom: -3em;
-    }
-    
-    .iconForecast{
-        width: 45px;
-        top: 70px;
-        right: 32px;
-    }
+
     
     /*article content*/
 
@@ -62,14 +40,15 @@
 
     .article{
         display: flex;
-        margin-top: 20px;
+        margin-top: 10px;
+        margin-bottom: -1em;
         width:800px ;
     }
 
     article .titlearticle{
         text-align: left;
         padding: 1em;
-        margin-bottom: -20 px;
+        margin-bottom:0 px;
     }
 
     article .autor{
@@ -96,24 +75,16 @@
 
 
 	.mapsection{
-        height: 305px;
-        margin-top: -80px;
-	}
-
-    .mapsection #MapPreston {
-		width: 270px;
-		margin: 15px 15px 15px 40px;
+        margin-top: .5em;
+        margin-bottom: 15px;
+        width: 90%;
+        display: grid;
+        grid-template-columns: 30.5% 68.5%;
+        grid-gap: 1%;
     }
     
-    div .infocontact{
-        margin-top: 8px;
-    }
-
-    .mapsection h3{
-        padding-top: 48px;
-    }
-
-    .mapsection img{
-        margin-bottom: 0px;
+    
+    .mapsection .events{
+        font-size: 1.3em;	
     }
 }

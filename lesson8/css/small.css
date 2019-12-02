@@ -296,8 +296,7 @@ form label.top input, form label.top select {
 	border-radius: 4px;
 	padding: .50em;
 	width: 90%;
-	max-width: 18rem;
-	
+	max-width: 18rem;	
 }
 
 form label.sbs {
@@ -311,7 +310,7 @@ form label.sbs {
 	 color:#a52828;
  }
 
-form label span{
+form legend{
 	display: inline;
 	font-weight: bold;
 }
