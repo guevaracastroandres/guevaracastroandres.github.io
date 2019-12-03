@@ -474,3 +474,8 @@ footer a {
 	color: white;
 	
 }
+
+main .readmore{
+	text-decoration: underline;
+	color: #293A53;
+}

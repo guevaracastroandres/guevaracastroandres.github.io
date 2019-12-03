@@ -118,7 +118,7 @@ h2{
 
 .wheatersummary {
 	width: 130px;
-	height: 165px; 
+	height: 110px; 
 	position: absolute;
 	top: 0;
 	right: 10px;
@@ -180,6 +180,7 @@ input{
 	margin-right: auto;
 	width:290px ;
 	padding: 10%;
+	margin-bottom: 20px;
 }
 
 
@@ -213,14 +214,15 @@ article .autor{
 /* map Div */
 
 .mapsection{
-	margin-left: auto;
-	margin-right: auto;
-	margin-top: 1em;
+	margin-left: 20px ;
+	margin-right: 10px;
+	margin-top: 2em;
 	margin-bottom: 15px;
-	width: 90%;
+	width: 100%;
 	display: grid;
-	grid-template-columns: 30.5% 68.5%;
-	grid-gap: 1%;
+	grid-template-columns: 90%;
+	grid-gap: 2%;
+	text-align: center;
 }
 
 .mapsection div{
@@ -228,18 +230,24 @@ article .autor{
 	background-color:#293A53;
 	color: white;
 	text-shadow: 2px 2px black;
+	text-align: center;
 }
 
 .mapsection .events{
-	font-size: 1.3em;	
+	font-size: 1em;	
 }
 
 .events h4{
 	border-radius:20px;
 	font-size: 1.6em;
 	background-color:#E2B629;
-	margin: 20px;
-	padding:20px;
+	margin: 10px;
+	padding: 10px;
+}
+
+.mapsection .mapimage{
+	display: none;
+	float: left;
 }
 
 
@@ -251,7 +259,7 @@ article .autor{
 	display: grid;
 	grid-template-columns: 47.5% 47.5%;
 	grid-gap: 5%;
-	margin-bottom: 4em;
+	margin-bottom: 1em;
 	padding-bottom: 2em;
 	margin-top: 2em;
 }
@@ -281,3 +289,4 @@ footer a {
 	color: white;
 	
 }
+

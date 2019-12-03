@@ -71,9 +71,9 @@
 		background-color: #2059AD;
 	}
     
-
 	.article{
 		 width:500px ; 
+		 margin-bottom: 1em;
 	}
 
 	.picnicimg {
@@ -82,23 +82,78 @@
 		
 
 	/* map and info content*/
-
-
-
 	.mapsection{
-		margin-top: -50px;
-		margin-bottom: 15px;
-		width: 90%;
-		height: 230px;
-		text-align: center;
+		margin-top:4em;
+		margin-bottom: 1em;
+		width: 95%;
+		display: grid;
+		grid-template-columns: 30.9% 68.5%;
+		grid-gap: 1%;
+		text-align: left;
+		
 	}
 
-	
-	.mapsection #MapPreston {
+	.mapsection div{
+		padding: 15px;
+	}
+
+	.mapsection .mapimage{
+		display: block;
 		float: left;
-		border: 2px solid #293A53;
-		width: 200px;
-		margin: 15px 15px 15px 40px;
+		width: 30%;
+		margin-right: 10px;
+		margin-bottom: 15px;
+	}
+
+	.events h4{
+        border-radius:10px;
+        font-size: 1.6em;
+        background-color:#E2B629;
+        margin: 5px;
+		padding:10px;
+	} 
+	
+	.events {
+		font-size: 7px;
 	}
 
 }
+
+
+/*.mapsection{
+	margin-top: -50px;
+	margin-bottom: 15px;
+	width: 90%;
+	height: 230px;
+	text-align: center;
+}
+
+	/*.mapsection{
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 1em;
+        margin-bottom: 15px;
+        width: 90%;
+        display: grid;
+        grid-template-columns: 30.5% 68.5%;
+        grid-gap: 1%;
+    }
+    
+    .mapsection div{
+        border-radius: 15px;
+        background-color:#293A53;
+        color: white;
+        text-shadow: 2px 2px black;
+    }
+    
+    .mapsection .events{
+        font-size: 1.3em;	
+    }
+    
+    .events h4{
+        border-radius:20px;
+        font-size: 1.6em;
+        background-color:#E2B629;
+        margin: 20px;
+        padding:20px;
+    } */

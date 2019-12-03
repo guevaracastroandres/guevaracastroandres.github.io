@@ -90,30 +90,29 @@
     }
 
 
+    /* Events and map section */
 
-
-    /* map and info content*/
-
-
-	.mapsection{
-        height: 305px;
-        margin-top: -80px;
-	}
-
-    .mapsection #MapPreston {
-		width: 270px;
-		margin: 15px 15px 15px 40px;
+    .mapsection{
+        margin-top: -3em;
+        width: 90%;
+        display: grid;
+        grid-template-columns: 30.5% 68.5%;
+        grid-gap: 1%;
+        margin-left: auto;
+        margin-right: auto;
     }
     
-    div .infocontact{
-        margin-top: 8px;
+    
+    .mapsection .events{
+        font-size: 1.3em;	
+    }
+    
+    .events h4{
+        border-radius: 10px;
+        font-size: 1.6em;
+        background-color:#E2B629;
+        padding:10px;
+        text-align: center;
     }
 
-    .mapsection h3{
-        padding-top: 48px;
-    }
-
-    .mapsection img{
-        margin-bottom: 0px;
-    }
 }

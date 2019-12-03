@@ -219,20 +219,20 @@ article .autor{
 
 
 /* map Div */
-
 .mapsection{
-	margin-left: auto;
-	margin-right: auto;
-	margin-top: 1em;
 	margin-bottom: 15px;
-	width: 90%;
+	width: 80%;
 	display: grid;
-	grid-template-columns: 30.5% 68.5%;
+	grid-template-columns: 80%;
 	grid-gap: 1%;
+}
+.mapsection img{
+	width: 30%;
+	float: left;
 }
 
 .mapsection div{
-	border-radius: 15px;
+	border-radius: 8px;
 	background-color:#293A53;
 	color: white;
 	text-shadow: 2px 2px black;
@@ -244,10 +244,10 @@ article .autor{
 
 .events h4{
 	border-radius:20px;
-	font-size: 1.6em;
+	font-size: 1em;
 	background-color:#E2B629;
-	margin: 20px;
-	padding:20px;
+	margin: 10px;
+	padding:10px;
 }
 
 
