@@ -175,40 +175,22 @@ input{
 
 /* articulo informativos*/
 
-.article{
-	margin-left: auto;
-	margin-right: auto;
-	width:290px ;
-	padding: 10%;
-	margin-bottom: 20px;
+
+.pimg{
+	margin-bottom: 15px;
 }
 
 
-div> article {
-	background-color: #FBFFC0;
-}
 
-.picnicimg{
-	display: block;
-	margin-left:0;
-	margin-right:0;
-	width: 290px;
-} 
-
-
-article .autor{
-	margin-top: 5px;
-	padding: 2px;
-	text-align: center;
-}
+/*------------------------------------------
+picnig article
+-------------------------------------------*/
 
 .textArticlePinic{
 	text-align: center;
 	padding: 1em;
 	margin: 2px;
 }
-
-
 
 
 /* map Div */
