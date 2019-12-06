@@ -1,5 +1,5 @@
 
-@media only screen and (max-width: 518px) {  .forecastdiv { display: none;} #MapPreston {display: none;} }
+@media only screen and (min-width: 518px) {  .forecastdiv { display: none;} #MapPreston {display: none;} }
 
 body{
     font-size: 13px;
@@ -98,7 +98,6 @@ h2{
 }
 
 .pancakestyle p{
-	font-style: bold;
 	text-align: center;
 	font-size: x-large;
 }
