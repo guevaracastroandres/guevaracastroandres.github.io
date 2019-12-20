@@ -23,7 +23,65 @@
     }
 
     
+    /*-------------- Temple information----------------*/
+
+    .templecontainer{
+        margin-top: 2.5em;
+        box-shadow: 0px -2px 25px 1px rgba(0,0,0,0.25);
+    }
+    .templeimformation{
+        grid-template-columns: 90%;
+
+    }
+
+    .templeimformation img{
+        margin-left: 15px;
+    }
+
+    /*-------------- Services pictures----------------*/
+
+.services{
+    margin-left: 30px;
+    grid-template-columns: 90%;
+    grid-gap:2%;
+    grid-template-rows: auto;
+    margin-bottom: 2em;
+}
+
+.servicesTitle{
+    display: none;
+}
 
 
+.services div{
+    font-size: 16px;
+}
+
+.services img{
+    width: 100%;
+}
+
+.services a{
+    display: block;
+    text-decoration: none;
+    background-color: rgba(255, 255, 255, 0.555);
+    padding: 3px 8px;
+    width: 100%;
+    border: solid 0.2px gray;
+    color: black;
+
+}
+
+
+/*-------------- Footer ----------------*/
+
+.footdiv{
+    grid-gap: 5%;
+}
+
+.footdiv img{
+    display: block;
+    width: 25px;
+}
 
 }
