@@ -206,6 +206,30 @@ iframe{
     margin-top: 0.5em;
     font-size: 1em;
 }
+
+/*----------------------------------------FULL TIME MISSIONARIES-----------------------------------------*/
+
+.servicespage{
+    max-width: 800px;
+    grid-template-columns: 80% ;
+    grid-template-rows: 150px 150px 150px 150px;
+    grid-gap: 1%;
+    margin-bottom: 8em;
+    padding-left: 1em;
+}
+
+.servicespage img{
+    margin-left: 25px;
+}
+
+.servicespage p {
+    margin-left: 1.5em;
+}
+.servicespage h3{
+    text-align: center;
+    margin-left: 1.5em;
+}
+
 /*-------------- Footer ----------------*/
 
 .footdiv{
