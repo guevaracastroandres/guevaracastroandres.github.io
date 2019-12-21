@@ -35,7 +35,7 @@
     }
 
     .templeimformation img{
-        margin-left: 15px;
+        margin-left: 10px;
     }
 
     /*-------------- Services pictures----------------*/
@@ -72,6 +72,98 @@
 
 }
 
+/*----------------------------------------------CONTAC PAGE---------------------------------------------*/
+.contacinformation{
+    margin-left:2em ;
+    grid-template-columns:90%;
+    grid-gap: 5%;
+}
+
+iframe{
+    width:200px; 
+    height:250px;
+    margin-bottom: 0.5em;
+}
+
+.map{
+    margin-top: 1em;
+    margin: auto;
+    margin-bottom: 1em;
+    margin-left: 3em;
+}
+
+
+/*-------------- Form contact ----------------*/
+.regularcontainer{
+    max-width: 800px;
+    margin-bottom: 1em;
+    margin-left: 1em;
+    margin-right: 1.2em;
+}
+
+/*----------------------------------------------RECEPTION---------------------------------------------*/
+.receptionformation{
+    margin-top: 1em;
+    grid-template-columns: 80%;
+    grid-template-rows: auto;
+    grid-gap: 3%;
+    padding-bottom: 3.5em;
+    margin-bottom: -2em;
+   
+}
+
+.receptionformation img{
+    height: 220px;
+    margin-left: 30px;
+}
+
+.receptionformation p{
+    text-align: left;
+    padding-left: 30px;
+}
+
+.receptionformation2{
+    padding: 1.5em;
+    grid-gap: 1%; 
+    grid-template-columns: 90% ;
+    grid-template-rows:85px;
+    margin-top: 50px;
+    margin-bottom: -2.5em;
+}
+
+
+.receptionformation2 span{
+    margin-top: 1em;
+    font-size: 1.7em;
+    margin-left: 45px;
+}
+
+.receptionformation2 p{
+    margin-left: 45px;
+}
+
+.receptionformation2 img{
+    margin-left: 15px;
+}
+
+.prices{
+    margin-bottom: 2em;
+    padding: 2em;
+    font-size: 15px;
+}
+
+.prices ul{
+    margin-left:0;
+    padding: 2px;
+    list-style: none;
+}
+
+.largeul{
+    display: none;
+}
+.secondariul{
+    display: inline-block;
+}
 
 /*-------------- Footer ----------------*/
 

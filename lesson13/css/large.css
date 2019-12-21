@@ -8,6 +8,20 @@ body {
     font-size: 16px;
     font-family: 'Mallanna', sans-serif;
 }
+
+h1,h2,h3,h4,h5{
+    font-family: 'Didact Gothic', sans-serif;
+}
+
+a{
+ color: #a0203c;
+ text-decoration: none;   
+}
+
+h1{
+    text-align: center;
+    margin: 1em;
+}
 /*-------------------LOGO-------------------*/
 .logo{
     width: 150px;
@@ -230,6 +244,193 @@ padding: 2px 10px;
 
 .services a{
     position: absolute;
+    display: none;
+}
+
+/*----------------------------------------------CONTAC PAGE---------------------------------------------*/
+.contacinformation{
+    max-width: 800px;
+    margin-top: 1em;
+    margin-bottom: 2em;
+    display: grid;
+    margin-left:auto ;
+    margin-right: auto;
+    grid-template-columns: 40% 60%;
+    grid-gap: 5%;
+}
+
+.contacinformation img{
+    width: 100%;
+}
+.map{
+    margin-top: 2em;
+    max-width: 800px;
+    margin: auto;
+    margin-bottom: 3em;
+}
+
+iframe{
+    width:800px; 
+    height:300px;
+}
+
+/*-------------- Form contact ----------------*/
+
+
+.regularcontainer{
+    display: block;
+    max-width: 800px;
+    margin-bottom: 2em;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+form fieldset{
+	border: 1px solid #a0203c;
+	border-radius: 10px;
+	padding: .5rem 2%;
+    background-color: #f9ffc4c4;
+    box-shadow: 3px 5px 8px 0px rgba(0,0,0,0.20);
+}
+
+form textarea{
+    margin-left: 0.5rem;
+    margin-top: 0.5rem;
+    outline: none;
+    border: 0;
+}
+form legend{
+    font-size: 1.3em;
+}
+
+form label.top{
+    color: black;
+    display: flex;
+    flex-direction: column;
+	padding: 0.5rem;
+	font-size: 1rem;
+    margin: .5em;
+    text-align: left;
+}
+
+form label.top input, form label.top select {
+	display: block;
+	font-size: 1rem;
+	border-radius: 4px;
+	padding: .5em;
+	width: 90%;
+	max-width: 15rem;	
+}
+
+form .checkbox{
+    color: black;
+    text-align: left;
+    margin-left: 1em;
+    font-weight: normal;
+}
+
+h4{
+    margin-left: 1em;
+}
+
+form input{
+    border: solid .5px #331133;
+}
+
+.sumitButton{
+	border: none;
+	background-color: #a0203c;
+	color: white;
+	border-radius: 1rem;
+	padding: .75rem 1.5rem;
+	width: 96%;
+	max-width: 18rem;
+    margin: 1rem 0 3rem 0 ;
+    font-size: 1em;
+}
+
+/*----------------------------------------------RECEPTION---------------------------------------------*/
+.receptioncont{
+    max-width: 1000px;
+    margin: auto;
+}
+
+.receptioncont img{
+    width: 100%;
+}
+
+.receptionformation{
+    background-color: #f9ffc4c4 ;
+    box-shadow: 0px 16px 25px -7px rgba(0,0,0,0.15); 
+    padding: 1em;
+    max-width: 1000px;
+    margin-top: 4em;
+    margin-bottom: 4em;
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    grid-template-columns: 25% 25% 48% ;
+    grid-template-rows: 250px;
+    grid-gap: 2%;
+}
+
+.receptionformation img{
+    width: 100%;
+}
+
+.receptionformation p{
+    font-size: 22px;
+    margin-top: 15px;
+    text-align: justify;
+    font-weight: lighter;
+}
+
+.receptionformation2{
+    max-width: 1000px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 49% 49%;
+    grid-gap: 2%; 
+    grid-template-rows:250px;
+    margin-bottom: 2em;
+}
+
+.receptionformation2 img{
+    width: 100%;
+}
+
+.receptionformation2 span{
+    margin-top: 1em;
+    font-size: 3em;
+    margin-bottom: 2px;
+    font-weight:bolder;
+}
+.receptionformation2 p{
+    margin-top: -20px;
+    padding: 0;
+    font-size: 2em;
+    font-weight: lighter;
+}
+
+.prices{
+    max-width: 1000px;
+    background-color:  #f9ffc4c4;
+    box-shadow: 0px 16px 25px -7px rgba(0,0,0,0.15); 
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2em;
+    padding: 2em;
+    font-size: 15px;
+}
+
+.prices h2{
+ text-align: center;
+}
+.prices ul{
+    margin-left: 16em;
+}
+
+.secondariul{
     display: none;
 }
 

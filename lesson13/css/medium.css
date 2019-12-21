@@ -48,5 +48,69 @@
 .services img{
     width: 100%;
 }
+
+/*----------------------------------------------CONTAC PAGE---------------------------------------------*/
+.contacinformation{
+    margin-left:3em ;
+}
+
+iframe{
+    width:650px; 
+    height:300px;
+}
+
+/*-------------- Form contact ----------------*/
+.regularcontainer{
+    display: block;
+    max-width: 800px;
+    margin-bottom: 2em;
+    margin-left: 3em;
+    margin-right: 3.5em;
+}
+
+/*----------------------------------------------RECEPTION---------------------------------------------*/
+.receptionformation{
+    grid-template-columns: 25% 25% 49% ;
+    grid-template-rows: 220px;
+    grid-gap: 2%;
+}
+
+.receptionformation p{
+    font-size: 15px;
+    margin: 5px;
+    text-align: justify;
+    font-weight: lighter;
+}
+
+.receptionformation2{
+    padding: 1.5em;
+    grid-gap: 1%; 
+    grid-template-rows:250px;
+    margin-bottom: -2.5em;
+}
+
+.receptionformation2 span{
+    margin-top: 1em;
+    font-size: 2em;
+    margin-left: 30px;
+}
+
+.receptionformation2 p{
+    margin-top: -20px;
+    font-size: 1.5em;
+    margin-left: 30px;
+    font-weight: lighter;
+}
+
+.prices{
+    margin-bottom: 2em;
+    padding: 2em;
+    font-size: 15px;
+}
+
+.prices ul{
+    margin-left: 9em;
+}
+
     
 }
