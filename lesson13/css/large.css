@@ -434,6 +434,70 @@ form input{
     display: none;
 }
 
+/*----------------------------------------FULL TIME MISSIONARIES-----------------------------------------*/
+
+.missionaries{
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    grid-template-columns: 59% 39%;
+    grid-gap: 1%;
+}
+
+.missionaries div{
+
+}
+
+.missionaries img{
+    margin-left: 3em;
+    margin-right: 0px;
+    border-radius: 10px;
+}
+
+.missionaries li{
+list-style: none;
+font-weight: bold;
+}
+
+.missionaries2{
+    margin-top: 2em;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    grid-template-columns: 31% 31% 31%;
+    grid-auto-rows: 250px 150px;
+    grid-gap:3%;
+    margin-bottom: 4em;
+    text-align: center;
+}
+
+
+.missionaries2 img{
+    width: 100%;
+    height: 100%;
+}
+
+.missionaries3{
+    max-width: 1000px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 60% 38%;
+    grid-gap: 2%;
+    margin-bottom: 2em;
+}
+
+.missionaries3 img{
+    width: 100%;
+}
+
+.missionaries3 p{
+    margin-top: 3em;
+    font-weight: bold ;
+    font-size: 1.2em;
+}
+
 /*-------------- Footer ----------------*/
 
 footer{

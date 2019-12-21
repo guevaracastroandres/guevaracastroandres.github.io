@@ -112,5 +112,31 @@ iframe{
     margin-left: 9em;
 }
 
+/*----------------------------------------FULL TIME MISSIONARIES-----------------------------------------*/
+
+.missionaries{
+    grid-template-columns: 54% 40%;
+    grid-gap: 2%;
+}
+
+.missionaries img{
+    margin-left: 1em;
+}
+
+.missionaries2{
+    grid-template-columns: 31% 31% 31%;
+    grid-auto-rows: 220px 150px;
+    grid-gap:2%;
+    margin-bottom: 6em;
+    padding: 1em;
+}
+
+
+.missionaries3{
+    grid-template-columns: 60% 38%;
+    grid-gap: 2%;
+    margin-bottom: 2em;
+    padding: 1em;
+}
     
 }
